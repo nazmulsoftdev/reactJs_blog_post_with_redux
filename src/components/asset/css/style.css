@@ -1,0 +1,17 @@
+
+.ScrollSection{
+  height: 500px;
+  overflow: scroll; 
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.ScrollSection::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .ScrollSection {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
